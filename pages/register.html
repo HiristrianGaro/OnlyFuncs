@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <!--Meta and all links-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="../css/my_style.css">
+
+     <!--Light BOx for Gallery-->
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <script type="text/javascript" src="../js/lightbox-plus-jquery.min.js"></script>
+    
+    <title>Login | Timepiece Talk</title>
+</head>
+<body class="d-flex flex-column min-vh-100 ">
+    <video id="background-video" autoplay loop muted>
+        <source src="../assets/../assets/img/videos/background_macos.mp4" type="video/mp4">
+    </video>
+
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-md navbar-dark mb-4 main_color_bkg">
+        <a href="index.html" class="navbar-brand"><img src="../assets/img/brand-white.png" alt="logo" class="img-fluid" width="80px" height="100px"></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
+
+
+        <div class="collapse navbar-collapse" id="responsive">
+            <ul class="navbar-nav mr-auto text-capitalize">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#modalview" class="nav-link" data-toggle="modal">Messages</a></li>
+                <li class="nav-item"><a href="notification.html" class="nav-link">Notification</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="#" class="nav-link d-md-none">Logout</a></li>
+                
+
+            </ul>
+
+            <form action="" class="form-inline ml-auto my-auto d-none d-md-block">
+                <input type="text" name="search" id="search" placeholder="Search" class="form-control form-control-sm">
+            </form>
+                <a href="notification.html" class="text-decoration-none" style="color:#CBE4F2;font-size:22px;"><i class="far fa-bell ml-3 d-none d-md-block"></i></a> 
+                <a href="profile.html"><img src="../assets/img/avatar-dhg.png" alt="" class="rounded-circle ml-3 d-none d-md-block" width="32px" height="32px"></a>
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        <h1 class="text-center">Welcome to OnlyFuncs</h1>
+        <div class="card mx-auto">
+            <h2 class="text-center mt-3 mb-0">Register</h2>
+            <form class="mx-4 my-2" action="./php/register.php" method="post">
+                <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Confirm Password</label>
+                    <input type="password" class="form-control" id="password_confirm" name="password_submit" placeholder="Confirm Password">
+                    </div>
+                <div class="form-group">
+                    <input type="checkbox" id="Remember Me" name="rememberme" value="0">
+                    <label for="demoCheckbox">I have read and agree to the Terms and Conditions</label>
+                </div>
+                <div class="form-group">
+                    <button name="submit" class="btn btn-secondary main_color_bkg" type="submit">Register</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+<br>
+
+<footer class="mt-5">     
+    <div class="card shadow-sm">
+        <div class="card-body mx-auto">
+            <p>&copy; Gallo & Cojocariu
+                    <a href="#">About</a>
+                    <a href="#">Help</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Ads </a>
+                    <a href="#">Info</a>
+                    <a href="#">Brand</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Status</a>
+                    <a href="#">Apps</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Advertise</a>
+            </p>
+        </div>
+    </div>
+</footer>
+    </div>
+    </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------Light BOx OPtions------------->
+<script>
+        lightbox.option({
+          
+        })
+    </script>
+
+
+
+<!------------------------Light BOx OPtions------------->
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
