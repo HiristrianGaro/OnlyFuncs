@@ -1,3 +1,6 @@
+<video id="background-video" autoplay loop muted>
+    <source src="./assets/img/videos/background_macos.mp4" type="video/mp4">
+</video> 
     <div class="container mb-5">
         <div class="card mx-auto">
             <h2 class="text-center mt-3 mb-0">Login</h2>
@@ -8,7 +11,7 @@
                 </div>
                 <div class="form-group">
                 <label for="Password">Password</label>
-                <input type="password" class="form-control" id="psw" placeholder="Password">
+                <input type="password" class="form-control" id="pwd" placeholder="Password">
                 </div>
                 <div class="form-group">
                     <input type="checkbox" id="Remember Me" name="rememberme" value="0">
@@ -21,4 +24,5 @@
             </form>
         </div>
     </div>
+    <br>
 

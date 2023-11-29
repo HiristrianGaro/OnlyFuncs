@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark mb-4 main_color_bkg">
-    <a href="index.html" class="navbar-brand"><img src="./assets/img/brand-white.png" alt="logo" class="img-fluid" width="80px" height="100px"></a>
+    <a href="index.html" class="navbar-brand"><img src="./assets/img/fx.png" alt="logo" class="img-fluid" width="40px" height="40px"></a>
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
 

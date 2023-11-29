@@ -1,15 +1,16 @@
 <?php
 
 $parameter="";
+echo $_POST;
 if (isset($_POST["nome"]) && isset($_POST["pwd"]))
 {
 	echo "ciao";	
-    $nome = $_POST["nome"];
+    $nome = $_POST["nome"]; 
     $password = $_POST["pwd"];
 	if ($nome=="marco" && $password=="123")
 	{
 		$parameter= "Location: datiUtente.php?login=$nome";
-		echo "<h1>Hai eseguito l'accesso con successo!</h1>";
+		echo "ciao<h1>Hai eseguito l'accesso con successo!</h1>";
 	}
 	elseif ($nome!="marco")
 	{
