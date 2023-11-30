@@ -35,7 +35,6 @@ include "common/funzioni.php";
       </div>
 	  <div class="container">
 	<?php
-	
 	  if (isset($_GET["status"]))
       {
 		  if ($_GET["status"]=='ok')

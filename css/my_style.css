@@ -143,6 +143,10 @@ footer{
     max-width: 100%;
 }
 
+.transparent {
+    background: rgba(0,0,0,0.5);
+}
+
 
 
 
