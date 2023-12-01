@@ -10,12 +10,10 @@ include "common/funzioni.php";
   <?php require "./common/header.php";?>
 
   <body>
+  <?php include "common/w3.php"; ?>
    
       <?php require "./common/navbar.php";?>
 
-    <div class="container">
-
-      <div class="well">
         
 		    <?php
 			   if (isset($_SESSION["logged"])){
@@ -27,9 +25,7 @@ include "common/funzioni.php";
 			   }			  
 			   else
 			   {
-			     echo "<h1>Welcome to OnlyFuncs</h1>";
-                 echo "<h2>Please login to use our platform!</h2>";
-                 include "./common/login.php";
+                 include "./common/login2.php";
 			   }
 			?>
       </div>

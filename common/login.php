@@ -7,11 +7,11 @@
             <form class="mx-4 my-2" action="./backend/check.php" method="post">
                 <div class="form-group">
                 <label for="Email">Email</label>
-                <input type="text" class="form-control" id="nome" placeholder=" name@example.com">
+                <input type="email" class="form-control" name="email" id="nome" placeholder=" name@example.com">
                 </div>
                 <div class="form-group">
                 <label for="Password">Password</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                <input type="password" class="form-control" name="password"id="pwd" placeholder="Password">
                 </div>
                 <div class="form-group">
                     <input type="checkbox" id="Remember Me" name="rememberme" value="0">
