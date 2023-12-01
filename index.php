@@ -49,4 +49,5 @@ include "common/funzioni.php";
 	<?php include "common/footer.php";?>
     
   </body>
+  
 </html>
