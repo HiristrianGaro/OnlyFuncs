@@ -10,7 +10,6 @@ include "common/funzioni.php";
   <?php require "./common/header.php";?>
 
   <body>
-  <?php include "common/w3.php"; ?>
    
       <?php require "./common/navbar.php";?>
 
@@ -25,7 +24,7 @@ include "common/funzioni.php";
 			   }			  
 			   else
 			   {
-                 include "./common/login2.php";
+                 include "./common/profile.php";
 			   }
 			?>
       </div>
