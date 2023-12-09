@@ -6,6 +6,5 @@
     <link rel="stylesheet" href="./css/lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="./css/my_style.css">
-    <script type="text/javascript" src="./js/lightbox-plus-jquery.min.js"></script>
     <title>Login | Timepiece Talk</title>
 </head>
