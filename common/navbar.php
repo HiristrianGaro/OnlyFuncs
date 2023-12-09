@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark mb-4 main_color_bkg">
-    <a href="index.html" class="navbar-brand"><img src="./assets/img/fx.png" alt="logo" class="img-fluid" width="40px" height="40px"></a>
+    <a href="index.html" class="navbar-brand"><img src="./assets/img/fx.png" alt="logo" class="img-fluid" width="30px" height="30px"></a>
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
 
@@ -19,10 +19,10 @@
             <input type="text" name="search" id="search" placeholder="Search" class="form-control form-control-sm">
         </form>
 
-            <a href="login.html" class="nav-item nav-link">Login</a>
-            <a href="register.html" class="nav-item nav-link">Register</a>
+            <a href="login.html" class="nav-item nav-link" hidden>Login</a>
+            <a href="register.html" class="nav-item nav-link" hidden>Register</a>
             <a href="notification.html" class="text-decoration-none" style="color:#CBE4F2;font-size:22px;"><i class="far fa-bell ml-3 d-none d-md-block"></i></a> 
             <a href="profile_edit.html" class="text-decoration-none" style="color:#CBE4F2;font-size:22px;"><i class="fa-solid fa-gears ml-3 d-none d-md-block"></i></a> 
-            <a href="profile.html"><img src="./assets/img/avatar-dhg.png" alt="" class="rounded-circle ml-3 d-none d-md-block" width="32px" height="32px"></a>
+            <a href="profile.html"><img src="./assets/img/luciuxx.jpeg" alt="" class="rounded-circle ml-3 d-none d-md-block" width="32px" height="32px"></a>
     </div>
 </nav>
